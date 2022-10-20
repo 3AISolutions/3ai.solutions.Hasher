@@ -3,7 +3,7 @@ using System.Text;
 
 namespace _3ai.solutions.Hasher
 {
-    public class TwoWayHashService
+    public sealed class TwoWayHashService
     {
         public int Config1 { get; init; } = 10;
         public int Config2 { get; init; } = 12;
